@@ -1,0 +1,30 @@
+body{
+    background-color: beige;
+}
+h1{
+    background-color: red;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+
+}
+td , th{
+    border: 2px solid yellowgreen;
+    text-align: left;
+    padding: 8px;
+
+}
+th{
+    background-color: black;
+    color: whitesmoke;
+}
+tr:nth-child(odd){
+    background-color: rgb(35, 34, 34);
+    color: whitesmoke;
+}
+tr:nth-child(even){
+    background-color: thistle;
+    color: rgb(44, 42, 42);
+}
